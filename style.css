@@ -1,0 +1,372 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #161616; 
+}
+
+p{
+    font-size: 10px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(254, 252, 252); */
+}
+/* ==============
+  header section style start ===================
+  */
+.card_header{
+    background-color: rgb(14, 1, 1);
+    height: 70vh;
+    width: 80%;
+    display: flex; 
+    border-radius: 20px;
+    position: relative;
+}
+
+.card_header_text{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    padding: 50px;
+    /* justify-content: center; */
+    align-items: center;
+    color: rgb(248, 237, 237);
+    /* background-color: chocolate;
+   */
+}
+.top_btn{
+    margin-top: 20px;
+}
+.top_btn>a{
+    background-color: rgb(196, 4, 4);
+    padding: 8px 10px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* ============
+card section style start 
+==================*/
+.card{
+   
+    height: 80vh;
+    width: 80%;
+    display: flex;
+   
+}
+.card-text{
+    background-color: rgb(14, 2, 2);
+    height: 40vh;
+    width: 25%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+.card_header_img{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244, 239, 239, 0.055);
+    
+}
+.card_header_img>div>img{
+    width: 400px;
+    height: 400px;
+    background: rgb(46, 31, 8);
+    transition-property: width;
+    transition-duration: 3s;
+}
+.card_header_img>div>img:hover{
+    width: 400px;
+}
+.card_header_img > div > img{
+    /* height: 30%; */
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+
+.card-text>div>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+}
+.card-text>div>ul>li{
+    
+    list-style: none;
+}
+.card-text>div{ 
+    
+ margin:10px;
+}
+
+.card-text .btn1{ 
+    padding: 8px 20px;
+    background-color: rgb(195, 3, 3);
+    border-radius: 10px;
+}
+.btn2{
+    padding: 10px 30px;
+    background-color: rgb(247, 236, 239);
+    border-radius: 10px;
+}
+.btn3{
+    padding: 10px 50px;
+    background-color: rgb(247, 236, 239);
+    border-radius: 10px;
+}
+.card-image>img{
+    height:100%;
+    width:50%;
+}
+.card-image>div>a{
+    border: 1px solid gray;
+    font-size: 14px;
+    color: rgb(48, 51, 53);
+    text-decoration: none;
+    padding: 2px 15px;
+    border-radius: 10px;
+}
+.card-image{
+
+    height: 80vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  color: rgb(234, 239, 243);
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-direction: column; */
+    /* flex-direction: row;
+    justify-content: flex-start; */
+}
+.card-image>div>img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    object-position: left;
+}
+.card-image>div{
+    color: black;
+  
+}
+.side-icon{
+    height: 100%;
+   /* padding: 5px 15px; */
+    display: flex;
+    justify-content: flex-start;
+   
+   }
+
+.message-item{
+        margin-left: 30px;
+    }
+/* ================
+middle btn css srart 
+====================*/
+
+.mid-btn{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.mid-btn>button>h4{
+    padding: 10px 30px;
+    background-color:goldenrod ;
+   
+    
+  }
+
+
+
+/* ================
+footer css start
+ ===================*/
+.f-footer{
+    color: aliceblue;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+ul li a{
+    color: rgb(26, 27, 29);
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.f-footer{
+    height: 30vh;
+    width: 100%;
+}
+.footer-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-direction: row;
+}
+.footer-soical{
+    font-size: 40px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .r-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.filled{
+   color: chocolate;
+   height: 50px;
+   width: 50px;
+   
+}
+
+
+
+ /* -----------
+ 2nd file live html style start
+ -------------- */
+
+.live-match{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(207, 203, 192);
+    margin: 20px ;
+    padding: 70px 20px;
+    box-shadow: 5px 5px 6px gray;
+    border-radius: 10px;
+}
+
+/* media quries */
+
+@media only screen and (max-width:688px){
+ 
+    .container{
+        justify-content: initial;
+    }
+    .card_header{
+        background-color: transparent;
+        height: 40vh;
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+    }
+    .card {
+        background-color: transparent;
+        height: 40vh;
+        flex-direction: column;
+
+      }
+    .card-text>div{
+        background-color: transparent;
+    }
+    .card_header_img > div > img{
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    .card_header_text{
+        /* margin-top: -50px; */
+        color: black;
+    }
+    .card-text{
+        margin-top: 250px;
+        padding: 2px 10px;
+        background-color: transparent;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 63%;
+    }
+   
+    ul li a{
+        color: rgb(26, 27, 29);
+    }
+    button{
+        display: none;
+        background-color: transparent;
+    }
+    .card-image{
+        height: auto;
+        color: black;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .f-footer{
+        margin-top:1300px;
+    }
+    .footer-button{
+        flex-direction:column ;
+    }
+}
+
+
+@media only screen  and (min-width :689px) and (max-width :992px) {
+    
+    .card{
+        flex-direction: column;
+    }
+    
+    .card-image{
+        width: auto;
+        color: black;
+        grid-template-columns: repeat(2,1fr);
+    }
+   .container{
+    height: 90vh;
+   }
+  .card-text{
+    width: auto;
+    background-color: transparent;
+    flex-direction: row;
+  }
+  button{
+    margin-top: 340px;
+}
+
+  } 
+  
+  @media only screen  and (min-width :993px) and (max-width :1920px) {
+    /* .container{
+        background-color: rgb(128, 3, 78);
+    } */
+    button{
+        display: none;
+        background-color: transparent;
+    }
+  }
